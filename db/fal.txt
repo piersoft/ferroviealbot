@@ -1,0 +1,584 @@
+﻿<!-- 2016-01-11 21:11:00 --><!--<!doctype html>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]><html lang="it-IT" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="it-IT" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="it-IT" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it-IT" class="no-js"><!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+
+            <title>Ferrovie Appulo Lucane &#8211; Sito ufficiale  &raquo; Ricerca corse</title>
+
+<link rel="stylesheet" href="http://ferrovieappulolucane.it/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=2.4.1" type="text/css" media="all" />
+
+            <!-- Google Chrome Frame for IE -->
+            <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+            <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,chrome=1">
+
+                <!-- mobile meta (hooray!) -->
+                <meta name="HandheldFriendly" content="True">
+                    <meta name="MobileOptimized" content="320">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+                        <!-- icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) -->
+                        <link rel="apple-touch-icon" href="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/apple-icon-touch.png">
+                            <link rel="icon" href="http://ferrovieappulolucane.it/wp-content/themes/fal_20/favicon.png">
+                                <!--[if IE]>
+                                        <link rel="shortcut icon" href="http://ferrovieappulolucane.it/wp-content/themes/fal_20/favicon.ico">
+                                <![endif]-->
+                                <!-- or, set /favicon.ico for IE10 win -->
+                                <meta name="msapplication-TileColor" content="#f01d4f">
+                                    <meta name="msapplication-TileImage" content="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/win8-tile-icon.png">
+
+                                        <link rel="pingback" href="http://ferrovieappulolucane.it/xmlrpc.php">
+                                                                                            <script type="text/javascript">
+                                                    var fermate_treno = [{"id":"16528","value":"Acerenza"},{"id":"16529","value":"Altamura"},{"id":"16530","value":"Avigliano Citt\u00e0"},{"id":"16531","value":"Avigliano Lucania"},{"id":"16532","value":"Bari Centrale FAL"},{"id":"16560","value":"Bari Policlinico"},{"id":"16533","value":"Bari Scalo"},{"id":"16534","value":"Bari Zona Industriale"},{"id":"16535","value":"Basentello"},{"id":"16561","value":"Binetto"},{"id":"17557","value":"Cancellara"},{"id":"16536","value":"Genzano"},{"id":"16537","value":"Gravina"},{"id":"16538","value":"Grumo A."},{"id":"16562","value":"Irsina"},{"id":"16539","value":"Marinella"},{"id":"16540","value":"Matera Centrale"},{"id":"17554","value":"Matera Serra Rifusa"},{"id":"16541","value":"Matera Sud"},{"id":"16563","value":"Matera Villa Longo"},{"id":"16542","value":"Mellitto"},{"id":"16543","value":"Moccaro"},{"id":"16544","value":"Modugno"},{"id":"16545","value":"Oppido Lucano"},{"id":"17553","value":"Palo del Colle"},{"id":"17556","value":"Pellicciari"},{"id":"16547","value":"Pescariello"},{"id":"16548","value":"Pietragalla"},{"id":"16549","value":"Posto Movimento Tiera"},{"id":"16550","value":"Potenza Citt\u00e0"},{"id":"16554","value":"Potenza Inf. Scalo"},{"id":"16564","value":"Potenza Inferiore"},{"id":"16551","value":"Potenza Macchia Romana"},{"id":"16552","value":"Potenza Rione Mancusi"},{"id":"16565","value":"Potenza S. Rocco"},{"id":"16553","value":"Potenza S.Maria"},{"id":"16555","value":"Ripa D'Api"},{"id":"16556","value":"S.Nicola"},{"id":"17555","value":"Santa Teresa di Gravina"},{"id":"16557","value":"Taccone"},{"id":"16566","value":"Tiera"},{"id":"16567","value":"Toritto"},{"id":"16558","value":"Torre Vosa"},{"id":"16559","value":"Venusio"}];
+                                                    var fermate_bus = [{"id":"25","value":"Abriola"},{"id":"26","value":"Acerenza"},{"id":"17","value":"Altamura"},{"id":"119","value":"Arioso"},{"id":"80","value":"Atena"},{"id":"27","value":"Avigliano"},{"id":"118","value":"Badia S. Angelo"},{"id":"5","value":"Bari"},{"id":"121","value":"Basentello"},{"id":"18","value":"Binetto"},{"id":"19","value":"Bitetto"},{"id":"117","value":"Bivio Anzi"},{"id":"116","value":"Bivio Latronico"},{"id":"115","value":"Bivio Lauria"},{"id":"114","value":"Bivio Rotonda"},{"id":"112","value":"Borgo Venusio"},{"id":"81","value":"Brienza"},{"id":"28","value":"Calvello"},{"id":"122","value":"Cancellara"},{"id":"79","value":"Castelluccio"},{"id":"78","value":"Epitaffio"},{"id":"29","value":"Ferrandina"},{"id":"111","value":"Galdo"},{"id":"110","value":"Genzano di Lucania"},{"id":"109","value":"Grassano"},{"id":"20","value":"Gravina"},{"id":"77","value":"Grumo Appula"},{"id":"33","value":"Irsina"},{"id":"75","value":"Lagonegro"},{"id":"113","value":"Laino Borgo"},{"id":"34","value":"Laurenzana"},{"id":"108","value":"Lauria"},{"id":"107","value":"Mad. Pantano"},{"id":"35","value":"Marconia"},{"id":"123","value":"Marinella"},{"id":"106","value":"Marsico Nuovo"},{"id":"36","value":"Matera"},{"id":"124","value":"Mellitto"},{"id":"125","value":"Moccaro"},{"id":"22","value":"Modugno"},{"id":"37","value":"Montalbano"},{"id":"105","value":"Monteforte"},{"id":"38","value":"Montescaglioso"},{"id":"104","value":"Montocchio"},{"id":"103","value":"Nemoli"},{"id":"126","value":"Oppido Lucano"},{"id":"16","value":"Paestum"},{"id":"76","value":"Palo del Colle"},{"id":"127","value":"Pellicciari"},{"id":"102","value":"Pergola"},{"id":"128","value":"Pescariello"},{"id":"101","value":"Peschiera-Craco"},{"id":"39","value":"Pietragalla"},{"id":"40","value":"Pignola"},{"id":"41","value":"Pisticci"},{"id":"100","value":"Poggiorsini"},{"id":"99","value":"Ponte Camastra"},{"id":"98","value":"Ponte d'Inferno"},{"id":"97","value":"Ponte Mallardi"},{"id":"43","value":"Potenza"},{"id":"95","value":"Pozzi"},{"id":"94","value":"Praia a Mare"},{"id":"93","value":"Prestieri"},{"id":"129","value":"Ripa D'Api"},{"id":"92","value":"Rotonda"},{"id":"91","value":"S. Nicola"},{"id":"216","value":"Sala Consilina"},{"id":"44","value":"Salandra"},{"id":"90","value":"Sasso di Castalda"},{"id":"89","value":"Sciffra"},{"id":"88","value":"Sellata"},{"id":"87","value":"Serrapotamo"},{"id":"86","value":"Spinazzola"},{"id":"130","value":"Taccone"},{"id":"85","value":"Taverna Foia"},{"id":"96","value":"Tiera"},{"id":"84","value":"Tinchi"},{"id":"83","value":"Tora"},{"id":"24","value":"Toritto"},{"id":"82","value":"Villa d'Agri"}];
+                                                </script>
+                                                                                        
+                                            <!-- wordpress head functions -->
+                                            <link rel="alternate" type="application/rss+xml" title="Ferrovie Appulo Lucane - Sito ufficiale &raquo; Ricerca corse Feed dei commenti" href="http://ferrovieappulolucane.it/ricerca-corse/feed/" />
+<link rel='stylesheet' id='colorbox-theme1-css'  href='http://ferrovieappulolucane.it/wp-content/plugins/jquery-colorbox/themes/theme1/colorbox.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='tubepress-theme-0-css'  href='http://ferrovieappulolucane.it/wp-content/plugins/tubepress/web/themes/default/css/tubepress.css' type='text/css' media='all' />
+<link rel='stylesheet' id='timelinr-css-css'  href='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/css/timelinr.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-chosen-css'  href='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/css/chosen.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-smoothness-theme-css'  href='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/css/smoothness/jquery-ui-1.10.2.custom.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider_css-css'  href='http://ferrovieappulolucane.it/wp-content/plugins/LayerSlider/css/layerslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tm-lcptu-styles-css'  href='http://ferrovieappulolucane.it/wp-content/plugins/latest-custom-post-type-updates/css/tm_lcptu_basic_styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bones-stylesheet-css'  href='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/css/style.css' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"true","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"chiudi","colorboxNext":"successiva","colorboxPrevious":"precedente","colorboxSlideshowStart":"Avvia la presentazione","colorboxSlideshowStop":"Ferma la presentazione","colorboxCurrent":"{current} di {total} immagini","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"80%","colorboxImageMaxHeight":"80%","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"","autoHideFlash":"","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/tubepress/web/js/tubepress.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/tubepress/web/js/wordpress-ajax.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/libs/jquery-1.9.1.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/libs/jquery.timelinr-0.9.52.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/chosen.jquery.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/ui/jquery.ui.core.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/jquery.ui.datepicker-it.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/jquery.forceNumeric.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/public-ricercacorse.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery-min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/LayerSlider/js/jquery-easing-1.3.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/plugins/popup-builder/javascript/sg_popup_core.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/libs/modernizr.custom.min.js'></script>
+<link rel='canonical' href='http://ferrovieappulolucane.it/ricerca-corse/' />
+<link rel='shortlink' href='http://ferrovieappulolucane.it/?p=28665' />
+    <script type="text/javascript">
+    
+    jQuery(document).ready(function(){
+    	
+    	    	jQuery("#layerslider_1").layerSlider({    		
+   			autoStart			: false,
+   			pauseOnHover		: true,
+			firstLayer			: 1,
+			animateFirstLayer	: false,
+			twoWaySlideshow		: true,
+    		keybNav				: true,
+    		touchNav			: true,
+    		imgPreload			: true,
+    		navPrevNext			: true,
+    		navStartStop		: true,
+    		navButtons			: false,
+    		skin				: 'defaultskin',
+    		skinsPath			: 'http://ferrovieappulolucane.it/wp-content/plugins/LayerSlider/skins/',
+    		    		globalBGColor		: 'white',
+    		    		    		yourLogo			: false,
+    		yourLogoStyle		: 'position: absolute; left: 10px; top: 10px; z-index: 99;',
+    		yourLogoLink		: false,
+    		yourLogoTarget		: '_self',
+    		
+    		loops				: 0,
+    		forceLoopNum		: true,
+    		autoPlayVideos		: true,
+    		
+    		    		
+    		autoPauseSlideshow	: 'auto',
+    		youtubePreview		: 'maxresdefault.jpg',
+    		
+    		cbInit				: function() { },
+    		cbStart				: function() { },
+    		cbStop				: function() { },
+    		cbPause				: function() { },
+    		cbAnimStart			: function() { },
+    		cbAnimStop			: function() { },
+    		cbPrev				: function() { },
+    		cbNext				: function() { }    	});
+    	    });
+    
+    </script>
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-39722117-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">var icl_lang = 'it';var icl_home = 'http://ferrovieappulolucane.it/';</script>
+<script type="text/javascript" src="http://ferrovieappulolucane.it/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script>
+<meta name="generator" content="WPML ver:2.4.1 stt:27,1;0" />
+
+
+<script type="text/javascript">var TubePressJsConfig = {"urls":{"base":"http:\/\/ferrovieappulolucane.it\/wp-content\/plugins\/tubepress","usr":"http:\/\/ferrovieappulolucane.it\/wp-content\/tubepress-content","ajax":"http:\/\/ferrovieappulolucane.it\/wp-admin\/admin-ajax.php"}};</script>
+                                            <!-- end of wordpress head -->
+
+                                            <!-- drop Google Analytics Here -->
+                                            <!-- end analytics -->
+                                            <script type="text/javascript">
+                                                var ajax_url = "http://ferrovieappulolucane.it/wp-admin/admin-ajax.php";
+                                                jQuery(function(){
+                                                    jQuery('select.chosen').chosen();
+                                                    jQuery('#localita-punti-vendita option.level-0').attr('disabled', 'disabled');
+                                                    if(navigator.userAgent.match(/msie /i)){
+                                                        jQuery('header nav li.menu-item').hover(function(){
+                                                            jQuery('ul.sub-menu', this).css('display', 'block');
+                                                        }, function(){
+                                                            jQuery('ul.sub-menu', this).css('display', 'none');
+                                                        });
+                                                    }
+                                                });
+                                            </script>
+                                            <!--[if lt IE 11]>
+                                    <link rel='stylesheet' id='bones-ie-only-css'  href='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/css/ie.css' type='text/css' media='all' />
+                                    <![endif]-->
+
+                                            <!--[if lt IE 11]>
+                                            <script src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/html5shiv.js"></script>
+                                            <![endif]-->
+
+                                            </head>
+
+                                            <body class="page page-id-28665 page-template page-template-ricerca-corse-php" >
+
+                                                <div id="container">
+
+                                                    <header class="header" role="banner">
+
+                                                        <div id="inner-header" class="wrap clearfix">
+
+                                        <!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
+                                                            <p id="logo" class="h1"><a href="http://ferrovieappulolucane.it" rel="nofollow">Ferrovie Appulo Lucane &#8211; Sito ufficiale</a></p>
+
+                                                            <!-- if you'd like to use the site description you can un-comment it below -->
+
+                                                            <div id="social_menu"> <a href="http://www.youtube.com/user/FerrovieAppuloLucane" target="_blank"><img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/yt.png" /></a>
+                                                                <a href="https://www.facebook.com/ferrovie.appulolucane" target="_blank"><img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/fb.png" /></a>
+                                                            </div>
+
+                                                            <img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/numero.png"  id="numeroverde" width="159" height="68"/>
+                                                            <form role="search" method="get" id="searchform" action="http://ferrovieappulolucane.it/" >
+    <label class="screen-reader-text" for="s">Search for:</label>
+    <input type="text" value="" name="s" id="s" placeholder="Search the Site..." />
+    <input type="submit" id="searchsubmit" value="Cerca" />
+    </form>
+
+                                                            
+                                                                <a href="http://ferrovieappulolucane.it/en/" class="flag_header">
+                                                                    <img src="http://ferrovieappulolucane.it/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" class="iclflag">
+                                                                </a>
+
+                                                            
+
+
+
+                                                            <nav role="navigation">
+                                                                <ul id="menu-principale" class="nav top-nav clearfix"><li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-27"><a href="http://ferrovieappulolucane.it/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="http://ferrovieappulolucane.it/le-ferrovie/">Le ferrovie</a>
+<ul class="sub-menu">
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://ferrovieappulolucane.it/le-ferrovie/chi-siamo/">Chi siamo</a></li>
+	<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://ferrovieappulolucane.it/le-ferrovie/dati/">Dati</a></li>
+	<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://ferrovieappulolucane.it/le-ferrovie/obiettivi/">Obiettivi</a></li>
+	<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="http://ferrovieappulolucane.it/le-ferrovie/la-storia-e-lo-sviluppo/">La storia e lo sviluppo</a></li>
+</ul>
+</li>
+<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-95"><a href="http://ferrovieappulolucane.it/tratta/orari/">Orari e tariffe</a>
+<ul class="sub-menu">
+	<li id="menu-item-28861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28861"><a href="http://ferrovieappulolucane.it/tratta/linee/">Linee e mezzi</a></li>
+	<li id="menu-item-33900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33900"><a href="http://ferrovieappulolucane.it/tratta/accesso-ai-servizi/">Accesso ai servizi</a></li>
+	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://ferrovieappulolucane.it/tratta/punti-vendita/">Punti vendita</a></li>
+	<li id="menu-item-8481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8481"><a href="http://ferrovieappulolucane.it/tratta/bigliettazione-online/">Bigliettazione online</a></li>
+</ul>
+</li>
+<li id="menu-item-28657" class="menu-item menu-item-type-post_type_archive menu-item-object-comunic-di-servizio menu-item-28657"><a href="http://ferrovieappulolucane.it/comunic-di-servizio/">Comunicazione di servizio</a></li>
+<li id="menu-item-28659" class="menu-item menu-item-type-post_type_archive menu-item-object-news menu-item-has-children menu-item-28659"><a href="http://ferrovieappulolucane.it/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-30619" class="menu-item menu-item-type-post_type_archive menu-item-object-archivionews menu-item-30619"><a href="http://ferrovieappulolucane.it/archivionews/">Archivio News</a></li>
+	<li id="menu-item-28658" class="menu-item menu-item-type-post_type_archive menu-item-object-rassegna-stampa menu-item-28658"><a href="http://ferrovieappulolucane.it/rassegna-stampa/">Rassegna stampa</a></li>
+	<li id="menu-item-28661" class="menu-item menu-item-type-post_type_archive menu-item-object-comunicato-stampa menu-item-28661"><a href="http://ferrovieappulolucane.it/comunicato-stampa/">Comunicati stampa</a></li>
+	<li id="menu-item-8737" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8737"><a href="http://ferrovieappulolucane.it/category/fotogallery/">Fotogallery</a></li>
+</ul>
+</li>
+<li id="menu-item-34677" class="menu-item menu-item-type-post_type menu-item-object-ammtrasparente menu-item-34677"><a href="http://ferrovieappulolucane.it/ammtrasparente/amministrazione-trasparente/">Amministrazione trasparente</a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-116"><a href="http://ferrovieappulolucane.it/qualita-e-servizi/">Qualità e servizi</a>
+<ul class="sub-menu">
+	<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://ferrovieappulolucane.it/qualita-e-servizi/politica-della-qualita/">Politica della qualità</a></li>
+	<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="http://ferrovieappulolucane.it/qualita-e-servizi/certificazione-di-qualita/">Certificazione di qualità</a></li>
+	<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="http://ferrovieappulolucane.it/qualita-e-servizi/carta-dei-servizi/">Carta dei servizi</a></li>
+	<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="http://ferrovieappulolucane.it/qualita-e-servizi/customer-satisfaction/">Customer satisfaction</a></li>
+</ul>
+</li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-143"><a href="http://ferrovieappulolucane.it/contatti/">Contatti</a>
+<ul class="sub-menu">
+	<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="http://ferrovieappulolucane.it/contatti/reclami-e-suggerimenti/">Reclami e suggerimenti</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://ferrovieappulolucane.it/contatti/newsletter/">Newsletter</a></li>
+</ul>
+</li>
+<li id="menu-item-17541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17541"><a href="http://eticket.ferrovieappulolucane.com/FAL/">Bigliettazione on line</a></li>
+</ul>                                                            </nav>
+
+                                                        </div> <!-- end #inner-header -->
+
+                                                    </header> <!-- end header -->
+<script language="javascript">
+
+$(document).ready(function() {
+
+	/*$('#partenza, #arrivo').change(function() {
+		var foo1 = $('#partenza').val();
+		var foo2 = $('#arrivo').val();
+		if (foo1 == 16530 || foo1 == 16531 || foo1 == 16550 || foo1 == 16554 || foo1 == 16564 || foo1 == 16551 || foo1 == 16552 || foo1 == 16565 || foo1 == 16553) {
+			if (foo2 == 16530 || foo2 == 16531 || foo2 == 16550 || foo2 == 16554 || foo2 == 16564 || foo2 == 16551 || foo2 == 16552 || foo2 == 16565 || foo2 == 16553) {
+				$('#cerca_submit').prop("disabled",true);
+				$('#avviso-popup, #avviso-overlay').show();
+			} else {
+				$('#cerca_submit').prop("disabled",false);
+			}
+		} else {
+			$('#cerca_submit').prop("disabled",false);
+		}
+	});*/
+	
+	/*$('#tipo_treno').click(function() {
+        if ($(this).is(':checked')) {
+            $('#cerca_submit').addClass("disabled_submit");
+			$('#cerca_submit').prop("disabled",true);
+			$('#avviso-popup2, #avviso-overlay2').show();
+        }
+    });
+	$('#tipo_bus').click(function() {
+        if ($(this).is(':checked')) {
+            $('#cerca_submit').removeClass("disabled_submit");
+			$('#cerca_submit').prop("disabled",false);
+        }
+    });*/
+	
+	$(".close-overlay").click(function() {
+		$('#avviso-popup, #avviso-overlay').hide();
+		//$('#avviso-popup2, #avviso-overlay2').hide();
+	});
+	
+	/*$('#tipo_mezzo_tn').change(function() {
+		$("#tipo_mezzo_au").prop('checked', true);
+        // do stuff here. It will fire on any checkbox change
+		alert("Ricerca per treni temporaneamente disabilitata. Verificate il quadro orario dalla sezione ORARI E TARIFFE");
+	});;*/
+
+});
+
+</script>
+
+<style>
+	.hide { display:none; }
+	
+	.popup-overlay{ background: #fff; position: fixed; width: 620px; height:200px; z-index: 9999; padding: 25px; overflow: hidden; left:50%; top: 50%; margin-left: -310px; margin-top:-100px;}
+	.close-overlay{ position: absolute; right: 25px; top: 5px; font-size: 30px; cursor: pointer;}
+	.small{ width: 40%; }
+	.standard{ width: 60%; }
+	.overlay{
+		display: none;
+		background:#000;
+		position:fixed;
+		opacity:0.5;
+		top:0px;
+		bottom:0px;
+		left:0px;
+		right:0px;
+		z-index:9998;
+		/*cursor:pointer;*/
+		width: 100%; height: 100%;
+	}
+</style>
+
+<!-- popup avviso -->
+<div id="avviso-overlay" class="overlay hide"></div>
+<div id="avviso-popup" class="popup-overlay hide">
+	<p class="lead" style="font-size: 16px; font-weight: bold;"><strong>ATTENZIONE</strong>:</p>
+    <p>Dal 01 ottobre al 16 novembre p.v., causa lavori in atto sulla linea ferroviaria urbana potentina, i viaggiatori interessati a percorrere la tratta Avigliano - Potenza e viceversa, sono invitati a consultare ed avvalersi dell'apposito "Quadro Orari Ferroviari" di riferimento accessibile <a href="http://ferrovieappulolucane.it/tratta/orari/"><strong>a questo indirizzo</strong></a>.</p>
+	<a class="close-overlay">&#215;</a>
+</div>
+<!-- fine popup avviso -->
+
+<!-- popup avviso -->
+<div id="avviso-overlay2" class="overlay hide"></div>
+<div id="avviso-popup2" class="popup-overlay hide">
+	<p class="lead" style="font-size: 16px; font-weight: bold;"><strong>ATTENZIONE</strong>:</p>
+    <p>LA RICERCA ORARI TRENI E' MOMENTANEAMENTE INDISPONIBILE CAUSA AGGIORNAMENTI IN CORSO<br />E' possibile consultare la tabella degli orari ferroviari dalla sezione <a href="http://ferrovieappulolucane.it/tratta/orari/">ORARI E TARIFFE</a></p>
+	<a class="close-overlay">&#215;</a>
+</div>
+<!-- fine popup avviso -->
+
+<div id="content">
+    <div id="main_home_slider" class="top_interna">
+                    <img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/default_treno.jpg" alt="Ricerca corse" />
+            </div>
+    <div id="inner-content" class="wrap clearfix">
+        <div id="main" class="eightcol first clearfix" role="main">
+                                <article id="post-28665" class="post-28665 page type-page status-publish hentry clearfix" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                        <header class="article-header">
+                            <h1 class="page-title" itemprop="headline" style="display:inline;">Ricerca corse</h1>
+                            <span style="color:#47aa42;padding-left: 10px;font-weight: bold;">BETA</span>
+                        </header> <!-- end article header -->
+                        <section class="entry-content clearfix" itemprop="articleBody" id="ricerca-corse">
+                            <div id="campi-ricerca">
+                                <form action="http://ferrovieappulolucane.it/ricerca-corse/" method="POST">
+                                    <h4>Ricerca corse</h4>
+                                    <ul>
+                                        <li>
+                                            <label>Mezzo</label>
+											                                            Treno<input type="radio" name="tipo_mezzo" id="tipo_treno" value="2" checked="checked"/>
+                                            Bus<input type="radio" name="tipo_mezzo" id="tipo_bus" value="1" />
+																						                                        </li>
+                                        <li>
+                                            <label>Partenza</label>
+                                            <input type="text" id="partenza-text" value="Bari Centrale FAL" />
+                                            <input type="hidden" name="partenza" id="partenza" value="16532" />
+                                        </li>
+                                        <li>
+                                            <label>Arrivo</label>
+                                            <input type="text"  id="arrivo-text" value="Matera Centrale" />
+                                            <input type="hidden" name="arrivo" id="arrivo" value="16540" />
+                                        </li>
+                                        <li>
+                                            <label>Data</label>
+                                            <input type="text" name="data" id="data" value="11/01/2016" />
+                                        </li>
+                                        <li>
+                                            <label>Ore / Minuti</label>
+                                            <select name="ore"  id="ore">
+                                                                                                    <option value="00" >00</option>
+                                                                                                    <option value="01" >01</option>
+                                                                                                    <option value="02" >02</option>
+                                                                                                    <option value="03" >03</option>
+                                                                                                    <option value="04" >04</option>
+                                                                                                    <option value="05" >05</option>
+                                                                                                    <option value="06" >06</option>
+                                                                                                    <option value="07" >07</option>
+                                                                                                    <option value="08" >08</option>
+                                                                                                    <option value="09" >09</option>
+                                                                                                    <option value="10" >10</option>
+                                                                                                    <option value="11" >11</option>
+                                                                                                    <option value="12" >12</option>
+                                                                                                    <option value="13" >13</option>
+                                                                                                    <option value="14" >14</option>
+                                                                                                    <option value="15" >15</option>
+                                                                                                    <option value="16" >16</option>
+                                                                                                    <option value="17" >17</option>
+                                                                                                    <option value="18" >18</option>
+                                                                                                    <option value="19" >19</option>
+                                                                                                    <option value="20" >20</option>
+                                                                                                    <option value="21" selected="selected">21</option>
+                                                                                                    <option value="22" >22</option>
+                                                                                                    <option value="23" >23</option>
+                                                                                            </select>
+                                            <select name="minuti"  id="minuti">
+                                                                                                    <option value="00" >00</option>
+                                                                                                    <option value="01" >01</option>
+                                                                                                    <option value="02" >02</option>
+                                                                                                    <option value="03" >03</option>
+                                                                                                    <option value="04" >04</option>
+                                                                                                    <option value="05" >05</option>
+                                                                                                    <option value="06" >06</option>
+                                                                                                    <option value="07" >07</option>
+                                                                                                    <option value="08" >08</option>
+                                                                                                    <option value="09" >09</option>
+                                                                                                    <option value="10" >10</option>
+                                                                                                    <option value="11" selected="selected">11</option>
+                                                                                                    <option value="12" >12</option>
+                                                                                                    <option value="13" >13</option>
+                                                                                                    <option value="14" >14</option>
+                                                                                                    <option value="15" >15</option>
+                                                                                                    <option value="16" >16</option>
+                                                                                                    <option value="17" >17</option>
+                                                                                                    <option value="18" >18</option>
+                                                                                                    <option value="19" >19</option>
+                                                                                                    <option value="20" >20</option>
+                                                                                                    <option value="21" >21</option>
+                                                                                                    <option value="22" >22</option>
+                                                                                                    <option value="23" >23</option>
+                                                                                                    <option value="24" >24</option>
+                                                                                                    <option value="25" >25</option>
+                                                                                                    <option value="26" >26</option>
+                                                                                                    <option value="27" >27</option>
+                                                                                                    <option value="28" >28</option>
+                                                                                                    <option value="29" >29</option>
+                                                                                                    <option value="30" >30</option>
+                                                                                                    <option value="31" >31</option>
+                                                                                                    <option value="32" >32</option>
+                                                                                                    <option value="33" >33</option>
+                                                                                                    <option value="34" >34</option>
+                                                                                                    <option value="35" >35</option>
+                                                                                                    <option value="36" >36</option>
+                                                                                                    <option value="37" >37</option>
+                                                                                                    <option value="38" >38</option>
+                                                                                                    <option value="39" >39</option>
+                                                                                                    <option value="40" >40</option>
+                                                                                                    <option value="41" >41</option>
+                                                                                                    <option value="42" >42</option>
+                                                                                                    <option value="43" >43</option>
+                                                                                                    <option value="44" >44</option>
+                                                                                                    <option value="45" >45</option>
+                                                                                                    <option value="46" >46</option>
+                                                                                                    <option value="47" >47</option>
+                                                                                                    <option value="48" >48</option>
+                                                                                                    <option value="49" >49</option>
+                                                                                                    <option value="50" >50</option>
+                                                                                                    <option value="51" >51</option>
+                                                                                                    <option value="52" >52</option>
+                                                                                                    <option value="53" >53</option>
+                                                                                                    <option value="54" >54</option>
+                                                                                                    <option value="55" >55</option>
+                                                                                                    <option value="56" >56</option>
+                                                                                                    <option value="57" >57</option>
+                                                                                                    <option value="58" >58</option>
+                                                                                                    <option value="59" >59</option>
+                                                                                            </select>
+                                        </li>
+                                        <li>
+                                            <input type="submit" value="Cerca" id="cerca_submit" />
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div id="risultato-ricerca">
+                                                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="numero_treno">Numero Treno</th>
+                                                    <th class="partenza">Partenza</th>
+                                                    <th class="ora_partenza">Ora</th>
+                                                    <th class="arrivo">Arrivo</th>
+                                                    <th class="ora_arrivo">Ora</th>
+                                                    <th class="durata">Durata</th>
+                                                                                                        <th class="sciopero">Garantito in caso di sciopero</th>
+                                                    <th class="info">Info</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                                                                        <tr class="even ">
+                                                            <td>
+                                                                41                                                                <img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/bicicletta.png" alt="Trasporto bici" class="icona_bici" />                                                            </td>
+                                                            <td><strong>Bari Centrale FAL</strong></td>
+                                                            <td>
+                                                                <strong>
+                                                                    22:16                                                                </strong>
+                                                            </td>
+                                                            <td><strong>Matera Centrale</strong></td>
+                                                            <td>
+                                                                <strong>
+                                                                    23:44                                                                </strong>
+                                                            </td>
+                                                            <td>
+                                                                01:28                                                            </td>
+                                                                                                                        <td>                                                                NO                                                            </td>
+                                                            <td><a href="#" class="mostra_dettagli" id="28035" data-id_partenza="16532" data-id_arrivo="16540">dettagli</a></td>
+                                                        </tr>
+                                                        <tr class="dettagli" style="display:none;">
+                                                            <td colspan="9">
+                                                            </td>
+                                                        </tr>
+                                                                                                    </tbody>
+                                        </table>
+                                                                    </div>
+                        </section> <!-- end article section -->
+                                            </article> <!-- end article -->
+                            </div> <!-- end #main -->
+            </div> <!-- end #inner-content -->
+</div> <!-- end #content -->
+			<footer class="footer" role="contentinfo">
+
+				<div id="inner-footer" class="wrap clearfix">
+					
+                    <div id="legale">
+                    <div class="tuv"><span>Azienda certificata UNI EN ISO 9001:2008</span>
+                    <img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/tuv.png" />
+					</div>
+                    <div style="float: right; width: 200px;">
+                    <img src="http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/images/logoFAL.png" class="logofal_footer" style="margin-bottom: 5px;" />
+                    
+                    <p>
+C.so Italia n.8 70123, BARI<br />
+P. IVA 05538100727</p>
+</div>
+                    </div>
+					<nav role="navigation">
+    					<ul id="menu-menu-footer" class="nav footer-nav clearfix"><li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46"><a href="http://ferrovieappulolucane.it/le-ferrovie/">Le ferrovie</a>
+<ul class="sub-menu">
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://ferrovieappulolucane.it/le-ferrovie/chi-siamo/">Chi siamo</a></li>
+	<li id="menu-item-8328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8328"><a href="http://ferrovieappulolucane.it/le-ferrovie/obiettivi/">Obiettivi</a></li>
+	<li id="menu-item-29697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29697"><a href="http://ferrovieappulolucane.it/amministrazione-trasparente/">Amministrazione trasparente</a>
+	<ul class="sub-menu">
+		<li id="menu-item-29955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29955"><a href="http://ferrovieappulolucane.it/amministrazione-trasparente/personale/">Personale</a>
+		<ul class="sub-menu">
+			<li id="menu-item-29956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29956"><a href="http://ferrovieappulolucane.it/amministrazione-trasparente/personale/concorsi/">Concorsi</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-8326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8326"><a href="http://ferrovieappulolucane.it/tratta/orari/">Orari e tariffe</a>
+<ul class="sub-menu">
+	<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://ferrovieappulolucane.it/tratta/">Linee e mezzi</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://ferrovieappulolucane.it/tratta/punti-vendita/">Punti vendita</a></li>
+	<li id="menu-item-8480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8480"><a href="http://ferrovieappulolucane.it/tratta/bigliettazione-online/">Bigliettazione online</a></li>
+</ul>
+</li>
+<li id="menu-item-8324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8324"><a href="http://ferrovieappulolucane.it/link-utili/">Link utili</a>
+<ul class="sub-menu">
+	<li id="menu-item-8323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8323"><a href="http://ferrovieappulolucane.it/note-legali-e-privacy/">Note Legali e Privacy</a></li>
+	<li id="menu-item-8322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8322"><a href="http://ferrovieappulolucane.it/albo-fornitori/">Albo fornitori</a></li>
+	<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="http://ferrovieappulolucane.it/contatti/">Contatti</a></li>
+</ul>
+</li>
+</ul>	                </nav>
+                    
+	                						
+				</div> <!-- end #inner-footer -->
+				
+			</footer> <!-- end footer -->
+		
+		</div> <!-- end #container -->
+		
+		<!-- all js scripts are loaded in library/bones.php -->
+		<!-- Italy Cookie Choices --><style type="text/css">#cookieChoiceInfo{background-color: #456dab;color: #ffffff;left:0;margin:0;padding:4px;position:fixed;text-align:left;top:0;width:100%;z-index:9999;}.contentStyle{max-width:980px;margin-right:auto;margin-left:auto;padding:15px;}.italybtn{color:#ffffff;padding:3px 7px;font-size:14px;line-height:14px;text-decoration:none;text-transform:uppercase;margin:10px 20px 2px 0;letter-spacing: 0.115em;display:inline-block;font-weight:normal;text-align:center;  vertical-align:middle;cursor:pointer;border:1px solid #ffffff;background:rgba(255, 255, 255, 0.03);}.consentText2{display:block}</style><script>var coNA="displayCookieConsent",coVA="y";scroll="1",elPos="fixed",infoClass="italybtn",closeClass="italybtn",htmlM="",rel="",tar="1",bgB="#456dab",btcB="#ffffff",bPos="top:0",bannerStyle="bannerStyle",contentStyle="contentStyle",consText="consentText2",jsArr = [];function allowCookie(){var a,b=document.getElementsByClassName("el"),c=new RegExp("<script.*?");for(a=0;a<b.length;a++){b[a].removeChild(b[a].childNodes[0]);var d=c.test(jsArr[a]);if(d){var e=/<script.*?src="(.*?)"/,f=e.test(jsArr[a]);f&&(f=e.exec(jsArr[a]),loadJS(f[1]));var g=/<script\b[^>]*>([\s\S]*?)<\/script>/gm,h=g.exec(jsArr[a]);h[1]&&appendJS(h[1])}else{var i=b[a].innerHTML;d=i.replace(/<cookie>/g,jsArr[a]),b[a].innerHTML=d}}}function loadJS(a){var b=document.createElement("script");b.type="application/javascript",b.src=a,document.body.appendChild(b)}function appendJS(a){var b=document.createElement("script");b.type="text/javascript";var c=a;try{b.appendChild(document.createTextNode(c)),document.body.appendChild(b)}catch(d){b.text=c,document.body.appendChild(b)}}!function(a){if(a.cookieChoices)return a.cookieChoices;var b=a.document,c=(b.documentElement,"textContent"in b.body,function(){function a(a){var b=a.offsetHeight,c=getComputedStyle(a);return b+=parseInt(c.marginTop)+parseInt(c.marginBottom)}function c(a,c,d,e){var i=b.createElement("div");i.id=r,i.className=bannerStyle;var j=b.createElement("div");return j.className=contentStyle,j.appendChild(f(a)),d&&e&&j.appendChild(h(d,e)),j.appendChild(g(c)),i.appendChild(j),i}function d(a,c,d,e){var i=b.createElement("div");i.id=r;var j=b.createElement("div");j.className="glassStyle";var k=b.createElement("div");k.className=contentStyle;var l=b.createElement("div");l.className=bannerStyle;var m=g(c);return k.appendChild(f(a)),d&&e&&k.appendChild(h(d,e)),k.appendChild(m),l.appendChild(k),i.appendChild(j),i.appendChild(l),i}function e(a,b){a.innerHTML=b}function f(a){var c=b.createElement("span");return c.className=consText,e(c,a),c}function g(a){var c=b.createElement("a");return e(c,a),c.id=s,c.className=closeClass,c.href="#",c}function h(a,c){var d=b.createElement("a");return e(d,a),d.className=infoClass,d.href=c,tar&&(d.target="_blank"),d}function i(){return p()&&(htmlM&&(b.getElementsByTagName("html")[0].style.marginTop=t),allowCookie(),o(),m()),rel&&b.location.reload(),!1}function j(e,f,g,h,j){if(p()){var k=j?d(e,f,g,h):c(e,f,g,h),l=b.createDocumentFragment();l.appendChild(k),b.body.appendChild(l.cloneNode(!0)),htmlM&&(b.getElementsByTagName("html")[0].style.marginTop=a(b.getElementById("cookieChoiceInfo"))+"px"),b.getElementById(s).onclick=i,scroll&&(b.onscroll=i)}}function k(a,b,c,d){j(a,b,c,d,!1)}function l(a,b,c,d){j(a,b,c,d,!0)}function m(){var a=b.getElementById(r);null!==a&&a.parentNode.removeChild(a)}function n(){i()}function o(){var a=new Date;a.setFullYear(a.getFullYear()+1),b.cookie=q+"="+coVA+"; expires="+a.toGMTString()+";path=/"}function p(){return!b.cookie.match(new RegExp(q+"=([^;]+)"))}var q=coNA,r="cookieChoiceInfo",s="cookieChoiceDismiss",t=b.getElementsByTagName("html")[0].style.marginTop,u={};return u.showCookieConsentBar=k,u.showCookieConsentDialog=l,u.removeCookieConsent=n,u}());return a.cookieChoices=c,c}(this);document.addEventListener("DOMContentLoaded", function(event) {cookieChoices.showCookieConsentBar("Questo sito utilizza cookies, anche di terze parti, per personalizzare la tua esperienza di navigazione. Chiudendo questo banner, scorrendo questa pagina o cliccando sull'apposito tasto di chiusura del messaggio acconsenti al loro impiego in conformit\u00e0 alle specifiche presenti nella pagina di cookie policy.", "Accetta", "Leggi", "http://ferrovieappulolucane.it/informativa-sulluso-dei-cookie/");});</script><noscript><style type="text/css">html{margin-top:35px}</style><div id="cookieChoiceInfo"><span>"Questo sito utilizza cookies, anche di terze parti, per personalizzare la tua esperienza di navigazione. Chiudendo questo banner, scorrendo questa pagina o cliccando sull'apposito tasto di chiusura del messaggio acconsenti al loro impiego in conformit\u00e0 alle specifiche presenti nella pagina di cookie policy."</span><a href="http://ferrovieappulolucane.it/informativa-sulluso-dei-cookie/" class="italybtn" target="_blank">Leggi</a></div></noscript>
+                <div id="lang_sel_footer">
+                    <ul>
+                        <li><a href="http://ferrovieappulolucane.it/en/"><img src="http://ferrovieappulolucane.it/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" class="iclflag" />&nbsp;<span  class="icl_lang_sel_native">English</span> <span  class="icl_lang_sel_translated"><span  class="icl_lang_sel_native">(</span>Inglese<span  class="icl_lang_sel_native">)</span></span></a></li>
+                        <li><a href="http://ferrovieappulolucane.it/ricerca-corse/" class="lang_sel_sel"><img src="http://ferrovieappulolucane.it/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png" alt="it" class="iclflag" />&nbsp;<span  class="icl_lang_sel_current">Italiano</span></a></li>
+                    </ul>
+                </div><script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/ui/jquery.ui.widget.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/ui/jquery.ui.position.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/ui/jquery.ui.menu.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-includes/js/jquery/ui/jquery.ui.autocomplete.min.js'></script>
+<script type='text/javascript' src='http://ferrovieappulolucane.it/wp-content/themes/fal_20/library/js/scripts.js'></script>
+
+	</body>
+
+</html> <!-- end page. what a ride! -->
