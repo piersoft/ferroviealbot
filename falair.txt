@@ -1,0 +1,342 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><title>
+	PUGLIAVOLA - Biglietteria online BUS - Ricerca Corse BUS
+</title><meta name="description" content="Biglietteria online di Aeroporti di Puglia" /><meta property="og:image" content="http://biglietteria.aeroportidipuglia.it/logo_pugliavola.gif" /><link rel="shortcut icon" href="/aeroportiPuglia.ico" type="image/x-icon" /><link type="text/css" href="/Style/style.css" rel="stylesheet" /><link type="text/css" href="/Script/JQuery/fancybox/jquery.fancybox-1.3.4.min.css" rel="stylesheet" /><link type="text/css" href="/Script/JQuery/css/jquery-ui/jquery-ui-1.9.2.custom.css" rel="Stylesheet" />
+    <style type="text/css">
+        #divContent { background-image:url(/Image/bus/fondo_pugliavola_bus_triang_blu.jpg); background-position:top center; background-repeat:no-repeat; }
+    </style>
+    <link type="text/css" rel="stylesheet" href="/Script/JQuery/datepicker/jquery.datepick.css" />
+
+    <script type="text/javascript" src="/Script/JQuery/jquery.min.js"></script>
+    <script type="text/javascript" src="/Script/JQuery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/Script/Function/localisation-it-IT.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="/Script/JQuery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="/Script/JQuery/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="/Script/Function/jsMaster.js"></script>
+    <script type="text/javascript" src="/Script/Function/jsErrore.js"></script>
+    
+    <script type="text/javascript" src="/Script/JQuery/jquery.accounting.js"></script>
+    <script type="text/javascript" src="/Script/JQuery/jquery.JSON.js"></script>
+    <script type="text/javascript" src="/Script/JQuery/datepicker/ui.datepicker.js"></script>
+    <script type="text/javascript" src="/Script/JQuery/datepicker/jquery.datepick-it-IT.js"></script>
+    <script type="text/javascript" src="/Script/Function/jsBus.js"></script>
+    <script type="text/javascript" src="/Script/Function/jsCorse.js"></script>
+</head>
+<body>
+    <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('require', 'displayfeatures');
+  ga('create', 'UA-54253-28', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <form name="aspnetForm" method="post" action="/Corse_MATERA_103_19/01/2016_BARI_101.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUHLTY3MTk5NBAWBB4LQ291bnRBbmRhdGECBR4MQ291bnRSaXRvcm5vZmQWAmYPZBYCAgMPZBYEZg9kFgICAQ8PFgIeB1Zpc2libGVoZGQCAQ9kFgwCBg8WAh4FdmFsdWUFCjE5LzAxLzIwMTZkAgcPEBYCHgtfIURhdGFCb3VuZGcQFQkIQUxUQU1VUkEEQkFSSQhCUklORElTSQZGT0dHSUENRk9HR0lBIGNlbnRybwVMRUNDRQZNQVRFUkEHVEFSQU5UTw5UQVJBTlRPIGNlbnRybxUJAzEwNAMxMDEDMTA2AzEwNQMxNDYCNDcDMTAzATIDMTAyFCsDCWdnZ2dnZ2dnZ2RkAggPEBYCHwRnEBUBBEJBUkkVAQMxMDEUKwMBZ2RkAgsPFgIeBFRleHQFYDxzcGFuIGNsYXNzPSJibHUiPlJpc3VsdGF0aSByaWNlcmNhOiA8L3NwYW4+PHNwYW4gY2xhc3M9InJvc3NvIj4gNSBjb3JzZSBkYSBNQVRFUkEgYSBCQVJJPC9zcGFuPmQCDA8UKwACDxYEHwRnHgtfIUl0ZW1Db3VudAIBZGQWAmYPZBYEAgEPDxYCHwUFBkFuZGF0YWRkAgMPDxYCHwUFFURBVEEgLSBtYXIgMTkvMDEvMjAxNmRkAg0PZBYCAgMPZBYCZg9kFgICAQ8UKwACZGRkGAIFHGN0bDAwJGNwaE1haW4kbHZDb3JzZVJpdG9ybm8PZ2QFG2N0bDAwJGNwaE1haW4kbHZDb3JzZUFuZGF0YQ8UKwAOZGRkZGRkZBQrAAFkAgFkZGRmAv////8PZA==" />
+</div>
+
+<script type="text/javascript">var _hideRitorno = true;</script>
+        <div id="divContent" class="content">
+            <table border="0" cellpadding="0" cellspacing="0" width="776px" align="center">
+                <tr>
+                    <td width="776" valign="top" align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:776px;" align="center">
+    <tr>
+        <td valign="top" class="sfondoTestata">
+            <div id="divLogoPugliaVola"><img src="/Image/logo_pugliavola.gif" title="Puglia Vola - Biglietteria online Aeroporti di Puglia" alt="Puglia Vola - Biglietteria online Aeroporti di Puglia" width="277" height="99" class="manina" onclick="javascript:{window.location.href='/Default.aspx';}" /></div>
+            <div id="divImgBiglietteria" title="LA BIGLIETTERIA ONLINE DI AEROPORTI DI PUGLIA"><img src="/Image/biglietteria-aeroporti-di-puglia.png" width="480" height="17" alt="LA BIGLIETTERIA ONLINE DI AEROPORTI DI PUGLIA" class="manina" onclick="javascript:{window.location.href='/Default.aspx';}" /></div>
+            <div id="divLingue">
+                <a id="ctl00_ucHeader_lkbEN" class="nero char13Arial nounderline bold" href="javascript:__doPostBack(&#39;ctl00$ucHeader$lkbEN&#39;,&#39;&#39;)"><img src="/Image/freccia_lingua.gif" alt="inglese" width="5" height="5" vspace="2" /> English</a>
+                
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" width="776">
+                <tr>
+                    <td width="436" style="padding-top:4px">
+                        <table border="0" cellspacing="0" cellpadding="0" class="menu">
+                            <tr>
+                                <td width="100" align="center" valign="bottom" style="padding-bottom:6px"><a class="char16Arial bold bianco nounderline" href="http://biglietteria.aeroportidipuglia.it" title="PUGLIAVOLA - Biglietteria AEREI">AEREI</a></td>
+                                <td class="bold blu char16Arial" align="center" width="125" valign="top" style="padding-top:6px">BUS</td>
+                                <td width="90" align="left" valign="bottom" style="padding-bottom:6px" class="paddingLeft10"><a class="char16Arial bold bianco nounderline" href="http://treni.aeroportidipuglia.it" title="PUGLIAVOLA - Biglietteria TRENI">TRENI</a></td>
+                                <td valign="bottom" align="left" style="padding-bottom:6px;"><a class="char16Arial bold bianco nounderline" title="Rent a Car" target="_blank" href='http://www.rentalcars.com/it/country/it/?affiliateCode=pugliaairports&adplat=pugliavola'>RENT CAR</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td align="right" valign="bottom" style="padding-bottom:8px"><a target="_blank" href="/Shuttle-Bus-Puglia-Air-Bus.pdf" class="bianco char14Arial bold nounderline" title='ORARI E PERCORSI'>ORARI E PERCORSI</a></td>
+                    <td width="25"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:776px;">
+    <tr>
+        <td width="29" height="31" align="left" class="sfondoBlu"></td>
+        <td width="747" height="30" valign="middle" class="sfondoBlu char11Arial bianco bold maiuscolo">
+            <table border="0" cellspacing="0" cellpadding="0" width="747" class="char11Arial bold">
+                <tr>
+                    <td width="34" align="left" valign="middle"><img src="/Image/risultati/step_1_ok.gif" hspace="4" alt="step1" /></td>
+                    <td width="105" class="bianco" align="left">RICERCA CORSE</td>
+                    
+                    <td width="34" align="right" class="sfondoStep"><img src="/Image/risultati/step_2_on.gif" hspace="4" alt="step2" /></td>
+                    <td width="115" class="bianco sfondoStep">RISULTATI CORSE</td>
+                    <td width="34" align="left"><img src="/Image/risultati/step_off.gif" hspace="4" alt="step3" /></td>
+                    <td width="111" align="left" class="darkGrigio">PRENOTAZIONE</td>
+                    <td width="34" align="left"><img src="/Image/risultati/step_off.gif" hspace="4" alt="step4" /></td>
+                    <td width="76" align="left" class="darkGrigio">ACQUISTO</td>
+                    <td width="34" align="left"><img src="/Image/risultati/step_off.gif" hspace="4" alt="step5" /></td>
+                    <td width="170" align="left" class="darkGrigio">CONFERMA DI ACQUISTO</td>
+                    
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</td>
+                </tr>
+                <tr>
+                    <td valign="top" width="776" align="left">
+    <input type="hidden" name="ctl00$cphMain$hidCodPartenza" id="ctl00_cphMain_hidCodPartenza" value="103" />
+    <input type="hidden" name="ctl00$cphMain$hidCodDestinazione" id="ctl00_cphMain_hidCodDestinazione" value="101" />
+    <input type="hidden" name="ctl00$cphMain$hidDataPartenza" id="ctl00_cphMain_hidDataPartenza" value="mar 19/01/2016" />
+    <input type="hidden" name="ctl00$cphMain$hidDataRitorno" id="ctl00_cphMain_hidDataRitorno" value="lun 01/01/0001" />
+    <input type="hidden" name="ctl00$cphMain$hidNPosti" id="ctl00_cphMain_hidNPosti" />
+    <input type="hidden" name="ctl00$cphMain$hidPosti" id="ctl00_cphMain_hidPosti" />
+    <table border="0" cellpadding="0" cellspacing="0" width="776">
+        <tr>
+            <td height="40" valign="middle" class="blu char12Arial paddingLeft12"><a class="char12Arial blu underline" href="/Default.aspx" title='Home ricerca bus'>Home ricerca bus</a>&nbsp;&gt;&nbsp;<span class="rosso bold">Risultati corse</span></td>
+            <td align="right" valign="middle" height="40" id="tdCarrello" style="display:none" class="paddingRight7"><img src="/Image/icona_carrello.gif" alt="" /><span class="char11Arial blu">Posti selezionati&nbsp;</span><label id="lblNPostiSelezionatiUp" class="char11Arial blu"></label>&nbsp;&nbsp;&nbsp;&nbsp;<a class="bold rosso char11Arial underline" href="/DettaglioCarrello.aspx" title='PROSEGUI CON L'ACQUISTO'>PROSEGUI CON L'ACQUISTO</a></td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" width="776">
+        <tr>
+            <td width="154" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" width="154">
+                    <tr>
+                        <td height="37" class="sfondoMenu blu bold char11Arial cellaAlignMiddle">NUOVA RICERCA BUS</td>
+                    </tr>  
+                    <tr>
+                        <td class="altezza2"></td>
+                    </tr> 
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12 paddingTop5 char11Arial blu">Data di Partenza</td>
+                    </tr> 
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12"><input name="ctl00$cphMain$txtDatePartenzaN" type="text" id="ctl00_cphMain_txtDatePartenzaN" class="blu char11Arial" style="width:100px;" maxlength="10" disabled="disabled" value="19/01/2016" /></td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="sfondoMenu paddingLeft12 paddingTop5 blu char11Arial">Partenza</td>
+                    </tr>
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12"><select name="ctl00$cphMain$sltPartenza" id="ctl00_cphMain_sltPartenza" class="char11Arial blu" style="width:100px" onchange="javascript:{BindDestinazioni();}">
+	<option value="104">ALTAMURA</option>
+	<option value="101">BARI</option>
+	<option value="106">BRINDISI</option>
+	<option value="105">FOGGIA</option>
+	<option value="146">FOGGIA centro</option>
+	<option value="47">LECCE</option>
+	<option selected="selected" value="103">MATERA</option>
+	<option value="2">TARANTO</option>
+	<option value="102">TARANTO centro</option>
+</select></td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="sfondoMenu paddingLeft12 paddingTop5 blu char11Arial">Arrivo</td>
+                    </tr>
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12"><select name="ctl00$cphMain$sltArrivo" id="ctl00_cphMain_sltArrivo" class="char11Arial blu" style="width:100px">
+	<option selected="selected" value="101">BARI</option>
+</select></td>
+                    </tr>
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12 paddingTop5 blu char11Arial"><input type="checkbox" id="chkRitorno" onclick="javascript:{CheckRitornoINRisultati();}" />Ritorno</td>
+                    </tr>
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12 paddingTop5"><span id="ctl00_cphMain_lblDataRitorno" class="char11Arial blu notDisplay"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="sfondoMenu paddingLeft12 paddingBottom3"><input name="ctl00$cphMain$txtDateRitornoN" type="text" id="ctl00_cphMain_txtDateRitornoN" class="blu char11Arial" style="width:100px;" maxlength="10" disabled="disabled" /></td>
+                    </tr>
+                    <tr>
+                        <td class="altezza2" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="sfondoMenu" height="10"></td>
+                    </tr>
+                    <tr>
+                        <td class="sfondoMenu" colspan="2">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="47"></td>
+                                    <td width="7" height="23" class="bottoneSX"></td>
+                                    <td width="46" class="sfondoRosso" align="center"><div class="char11Arial bold bianco manina bottoneCerca">CERCA</div></td>
+                                    <td width="7" class="bottoneDX"></td>
+                                    <td width="47"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="sfondoMenu" height="10"></td>
+                    </tr>
+                    <tr>
+                        <td class="altezza5" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td><a title="Rent Car" href="http://www.rentalcars.com/?affiliateCode=pugliaairports&preflang=it&adcamp=bannersmallit&adplat=bannersmallit" target="_blank"><img src='/Image/rentcar/Rentalcars_it.jpg' alt="Rent Car" hspace="1" vspace="5" /></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td width="9"></td>
+            <td width="613" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" width="613">
+                    <tr>
+                        <td class="sfondoMenu bold char12Arial paddingLeft7" height="37" valign="middle"><span class="blu">Risultati ricerca: </span><span class="rosso"> 5 corse da MATERA a BARI</span></td>
+                    </tr>
+                    <tr>
+                        <td height="15"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                                    <table border="0" cellpadding="0" cellspacing="0" width="613">
+                                        <tr>
+                                            <td class="sfondoAndata" width="24" height="32"><img src="/Image/bus/bus_andata_blu.gif" hspace="3" width="18" alt="bus" /></td>
+                                            <td width="3"></td>
+                                            <td class="sfondoAndata paddingLeft10" valign="middle" width="110" align="left"><span id="ctl00_cphMain_lvCorseAndata_lblAndata" class="blu bold char12Arial">Andata</span></td>
+                                            <td class="sfondoAndata" valign="middle" align="left"  width="466"><span id="ctl00_cphMain_lvCorseAndata_lblDataCorse" class="blu bold char12Arial">DATA - mar 19/01/2016</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" height="4"></td>
+                                        </tr>
+                                        
+                                    <tr><td colspan="4" class="sfondoMenu" height="25"><table border="0" cellspacing="0" cellpadding="0"><tr><td width="128" height="25" valign="middle" align="left"><span class="char11Arial blu paddingLeft10">Codice Linea: </span><span class="char11Arial rosso">02</span></td><td width="128" valign="middle" align="left"><span class="char11Arial blu">Codice Corsa: </span><span class="char11Arial rosso">21</span></td><td width="357" valign="middle" align="left"><span class="char11Arial blu">Linea: </span><span class="char11Arial rosso">MATERA - BARI AEROPORTO</span></td></tr></table></td></tr><tr><td colspan="4" height="2"></td></tr><tr><td class="sfondoMenu char18Arial giallo bold" valign="middle" align="center">1</td><td width="3"></td><td colspan="2" width="586" class="sfondoMenu"><table border="0" cellpadding="1" cellspacing="2" width="586"><tr><td class="bold char11Arial paddingLeft10" align="left" width="120">PARTENZA da</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">MATERA (P.za Della Visitazione )</td></tr><tr><td class="char11Arial paddingLeft10" align="left">ORARIO</td><td class="char11Arial paddingLeft10" align="left" colspan="2">04:55:00</td></tr><tr><td class="bold char11Arial paddingLeft10" align="left">ARRIVO a</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">BARI (AEROPORTO)</td></tr><tr><td class="char11Arial paddingLeft10" align="left" valign="top">ORARIO</td><td class="char11Arial paddingLeft10" align="left" valign="top" width="306">06:10:00</td><td width="160" valign="middle" class="sfondoMenu" ><table border="0" width="160" cellpadding="0" cellspacing="0" id="tblDisponibilita0221"><tr><td class="bottoneSXDettagli"></td><td class="bordoTastoDettagli sfondoBianco" align="center" width="146"><a class="rosso bold char11Arial nounderline" onclick="javascript:{CheckAvailability('02', '21', '103', '101', '19/01/2016', 'MATERA', 'BARI', '04:55:00', '06:10:00', 'P.za Della Visitazione ', 'AEROPORTO');}" href="#trPosti0221">VERIFICA DISPONIBILITA'</a></td><td class="bottoneDXDettagli"></td></tr></table></td></tr></table></td></tr><tr id="trPosti0221" style="display:none" class="disponibilita"><td colspan="4" width="613"><table border="0" cellpadding="0" cellspacing="0" width="613"><tr><td height="5" colspan="2" class="sfondoMenu"></td></tr><tr><td height="32" class="bianco bold char12Arial paddingLeft40 sfondoRosso" valign="middle" align="left">DISPONIBILITA' POSTI E PRENOTAZIONE</td><td width="32" align="left" class="sfondoRosso"><img border="0" alt="CHIUDI" src="/Image/risultati/ico_chiudi.gif" class="manina" onclick="javascript:{HideAvailability('0221');}"></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="613" class="paddingTop7"><tr><td width="4"></td><td width="244" valign="top"><table border="0" cellspacing="1" cellpadding="1"><tr><td class="char11Arial paddingLeft7">Tariffa:&nbsp;<span id="lblTariffa0221" class="bold"></span></td></tr><tr><td class="char11Arial paddingLeft7">Prezzo biglietto:&nbsp;<span id="lblPrezzo0221" class="bold rosso"></span></td></tr><tr><td class="char10Arial paddingLeft7">(comprensivo di diritto di prenotazione:&nbsp;<span id="lblPrezzoDiritto0221" class="bold rosso char11Arial"></span>)</td></tr><tr><td class="char11Arial paddingTop15 paddingLeft7 bold">E' possibile acquistare massimo 2 posti</td></tr></table></td><td width="210" valign="top"><table border="0" cellspacing="0" cellpadding="0" id="tblPosti0221"></table></td><td width="155" valign="top"><table border="0" cellspacing="2" cellpadding="2"><tr><td class="char11Arial rosso" colspan="2">legenda</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoAndata">&nbsp;</div></td><td class="char10Arial">Posto selezionato</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRosso">&nbsp;</div></td><td class="char10Arial">Posto non disponibile</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRitorno">&nbsp;</div></td><td class="char10Arial">Posto libero</td></tr></table><table border="0" cellspacing="0" cellpadding="0" id="tblCarrello0221" style="display:none;"><tr><td class="bottoneSX"></td><td class="sfondoRosso"><a class="char11Arial bold bianco nounderline" href="#" onclick="javascript:{InsertCarrello();}">AGGIUNGI AL CARRELLO</a></td><td class="bottoneDX"></td></tr></table></td></tr></table></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td class="bordoTopBlu" colspan="4"></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td colspan="4" class="sfondoMenu" height="25"><table border="0" cellspacing="0" cellpadding="0"><tr><td width="128" height="25" valign="middle" align="left"><span class="char11Arial blu paddingLeft10">Codice Linea: </span><span class="char11Arial rosso">02</span></td><td width="128" valign="middle" align="left"><span class="char11Arial blu">Codice Corsa: </span><span class="char11Arial rosso">22</span></td><td width="357" valign="middle" align="left"><span class="char11Arial blu">Linea: </span><span class="char11Arial rosso">MATERA - BARI AEROPORTO</span></td></tr></table></td></tr><tr><td colspan="4" height="2"></td></tr><tr><td class="sfondoMenu char18Arial giallo bold" valign="middle" align="center">2</td><td width="3"></td><td colspan="2" width="586" class="sfondoMenu"><table border="0" cellpadding="1" cellspacing="2" width="586"><tr><td class="bold char11Arial paddingLeft10" align="left" width="120">PARTENZA da</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">MATERA (P.za Della Visitazione )</td></tr><tr><td class="char11Arial paddingLeft10" align="left">ORARIO</td><td class="char11Arial paddingLeft10" align="left" colspan="2">10:45:00</td></tr><tr><td class="bold char11Arial paddingLeft10" align="left">ARRIVO a</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">BARI (AEROPORTO)</td></tr><tr><td class="char11Arial paddingLeft10" align="left" valign="top">ORARIO</td><td class="char11Arial paddingLeft10" align="left" valign="top" width="306">12:00:00</td><td width="160" valign="middle" class="sfondoMenu" ><table border="0" width="160" cellpadding="0" cellspacing="0" id="tblDisponibilita0222"><tr><td class="bottoneSXDettagli"></td><td class="bordoTastoDettagli sfondoBianco" align="center" width="146"><a class="rosso bold char11Arial nounderline" onclick="javascript:{CheckAvailability('02', '22', '103', '101', '19/01/2016', 'MATERA', 'BARI', '10:45:00', '12:00:00', 'P.za Della Visitazione ', 'AEROPORTO');}" href="#trPosti0222">VERIFICA DISPONIBILITA'</a></td><td class="bottoneDXDettagli"></td></tr></table></td></tr></table></td></tr><tr id="trPosti0222" style="display:none" class="disponibilita"><td colspan="4" width="613"><table border="0" cellpadding="0" cellspacing="0" width="613"><tr><td height="5" colspan="2" class="sfondoMenu"></td></tr><tr><td height="32" class="bianco bold char12Arial paddingLeft40 sfondoRosso" valign="middle" align="left">DISPONIBILITA' POSTI E PRENOTAZIONE</td><td width="32" align="left" class="sfondoRosso"><img border="0" alt="CHIUDI" src="/Image/risultati/ico_chiudi.gif" class="manina" onclick="javascript:{HideAvailability('0222');}"></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="613" class="paddingTop7"><tr><td width="4"></td><td width="244" valign="top"><table border="0" cellspacing="1" cellpadding="1"><tr><td class="char11Arial paddingLeft7">Tariffa:&nbsp;<span id="lblTariffa0222" class="bold"></span></td></tr><tr><td class="char11Arial paddingLeft7">Prezzo biglietto:&nbsp;<span id="lblPrezzo0222" class="bold rosso"></span></td></tr><tr><td class="char10Arial paddingLeft7">(comprensivo di diritto di prenotazione:&nbsp;<span id="lblPrezzoDiritto0222" class="bold rosso char11Arial"></span>)</td></tr><tr><td class="char11Arial paddingTop15 paddingLeft7 bold">E' possibile acquistare massimo 2 posti</td></tr></table></td><td width="210" valign="top"><table border="0" cellspacing="0" cellpadding="0" id="tblPosti0222"></table></td><td width="155" valign="top"><table border="0" cellspacing="2" cellpadding="2"><tr><td class="char11Arial rosso" colspan="2">legenda</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoAndata">&nbsp;</div></td><td class="char10Arial">Posto selezionato</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRosso">&nbsp;</div></td><td class="char10Arial">Posto non disponibile</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRitorno">&nbsp;</div></td><td class="char10Arial">Posto libero</td></tr></table><table border="0" cellspacing="0" cellpadding="0" id="tblCarrello0222" style="display:none;"><tr><td class="bottoneSX"></td><td class="sfondoRosso"><a class="char11Arial bold bianco nounderline" href="#" onclick="javascript:{InsertCarrello();}">AGGIUNGI AL CARRELLO</a></td><td class="bottoneDX"></td></tr></table></td></tr></table></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td class="bordoTopBlu" colspan="4"></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td colspan="4" class="sfondoMenu" height="25"><table border="0" cellspacing="0" cellpadding="0"><tr><td width="128" height="25" valign="middle" align="left"><span class="char11Arial blu paddingLeft10">Codice Linea: </span><span class="char11Arial rosso">02</span></td><td width="128" valign="middle" align="left"><span class="char11Arial blu">Codice Corsa: </span><span class="char11Arial rosso">23</span></td><td width="357" valign="middle" align="left"><span class="char11Arial blu">Linea: </span><span class="char11Arial rosso">MATERA - BARI AEROPORTO</span></td></tr></table></td></tr><tr><td colspan="4" height="2"></td></tr><tr><td class="sfondoMenu char18Arial giallo bold" valign="middle" align="center">3</td><td width="3"></td><td colspan="2" width="586" class="sfondoMenu"><table border="0" cellpadding="1" cellspacing="2" width="586"><tr><td class="bold char11Arial paddingLeft10" align="left" width="120">PARTENZA da</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">MATERA (P.za Della Visitazione )</td></tr><tr><td class="char11Arial paddingLeft10" align="left">ORARIO</td><td class="char11Arial paddingLeft10" align="left" colspan="2">13:00:00</td></tr><tr><td class="bold char11Arial paddingLeft10" align="left">ARRIVO a</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">BARI (AEROPORTO)</td></tr><tr><td class="char11Arial paddingLeft10" align="left" valign="top">ORARIO</td><td class="char11Arial paddingLeft10" align="left" valign="top" width="306">14:15:00</td><td width="160" valign="middle" class="sfondoMenu" ><table border="0" width="160" cellpadding="0" cellspacing="0" id="tblDisponibilita0223"><tr><td class="bottoneSXDettagli"></td><td class="bordoTastoDettagli sfondoBianco" align="center" width="146"><a class="rosso bold char11Arial nounderline" onclick="javascript:{CheckAvailability('02', '23', '103', '101', '19/01/2016', 'MATERA', 'BARI', '13:00:00', '14:15:00', 'P.za Della Visitazione ', 'AEROPORTO');}" href="#trPosti0223">VERIFICA DISPONIBILITA'</a></td><td class="bottoneDXDettagli"></td></tr></table></td></tr></table></td></tr><tr id="trPosti0223" style="display:none" class="disponibilita"><td colspan="4" width="613"><table border="0" cellpadding="0" cellspacing="0" width="613"><tr><td height="5" colspan="2" class="sfondoMenu"></td></tr><tr><td height="32" class="bianco bold char12Arial paddingLeft40 sfondoRosso" valign="middle" align="left">DISPONIBILITA' POSTI E PRENOTAZIONE</td><td width="32" align="left" class="sfondoRosso"><img border="0" alt="CHIUDI" src="/Image/risultati/ico_chiudi.gif" class="manina" onclick="javascript:{HideAvailability('0223');}"></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="613" class="paddingTop7"><tr><td width="4"></td><td width="244" valign="top"><table border="0" cellspacing="1" cellpadding="1"><tr><td class="char11Arial paddingLeft7">Tariffa:&nbsp;<span id="lblTariffa0223" class="bold"></span></td></tr><tr><td class="char11Arial paddingLeft7">Prezzo biglietto:&nbsp;<span id="lblPrezzo0223" class="bold rosso"></span></td></tr><tr><td class="char10Arial paddingLeft7">(comprensivo di diritto di prenotazione:&nbsp;<span id="lblPrezzoDiritto0223" class="bold rosso char11Arial"></span>)</td></tr><tr><td class="char11Arial paddingTop15 paddingLeft7 bold">E' possibile acquistare massimo 2 posti</td></tr></table></td><td width="210" valign="top"><table border="0" cellspacing="0" cellpadding="0" id="tblPosti0223"></table></td><td width="155" valign="top"><table border="0" cellspacing="2" cellpadding="2"><tr><td class="char11Arial rosso" colspan="2">legenda</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoAndata">&nbsp;</div></td><td class="char10Arial">Posto selezionato</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRosso">&nbsp;</div></td><td class="char10Arial">Posto non disponibile</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRitorno">&nbsp;</div></td><td class="char10Arial">Posto libero</td></tr></table><table border="0" cellspacing="0" cellpadding="0" id="tblCarrello0223" style="display:none;"><tr><td class="bottoneSX"></td><td class="sfondoRosso"><a class="char11Arial bold bianco nounderline" href="#" onclick="javascript:{InsertCarrello();}">AGGIUNGI AL CARRELLO</a></td><td class="bottoneDX"></td></tr></table></td></tr></table></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td class="bordoTopBlu" colspan="4"></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td colspan="4" class="sfondoMenu" height="25"><table border="0" cellspacing="0" cellpadding="0"><tr><td width="128" height="25" valign="middle" align="left"><span class="char11Arial blu paddingLeft10">Codice Linea: </span><span class="char11Arial rosso">02</span></td><td width="128" valign="middle" align="left"><span class="char11Arial blu">Codice Corsa: </span><span class="char11Arial rosso">24</span></td><td width="357" valign="middle" align="left"><span class="char11Arial blu">Linea: </span><span class="char11Arial rosso">MATERA - BARI AEROPORTO</span></td></tr></table></td></tr><tr><td colspan="4" height="2"></td></tr><tr><td class="sfondoMenu char18Arial giallo bold" valign="middle" align="center">4</td><td width="3"></td><td colspan="2" width="586" class="sfondoMenu"><table border="0" cellpadding="1" cellspacing="2" width="586"><tr><td class="bold char11Arial paddingLeft10" align="left" width="120">PARTENZA da</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">MATERA (P.za Della Visitazione )</td></tr><tr><td class="char11Arial paddingLeft10" align="left">ORARIO</td><td class="char11Arial paddingLeft10" align="left" colspan="2">17:10:00</td></tr><tr><td class="bold char11Arial paddingLeft10" align="left">ARRIVO a</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">BARI (AEROPORTO)</td></tr><tr><td class="char11Arial paddingLeft10" align="left" valign="top">ORARIO</td><td class="char11Arial paddingLeft10" align="left" valign="top" width="306">18:25:00</td><td width="160" valign="middle" class="sfondoMenu" ><table border="0" width="160" cellpadding="0" cellspacing="0" id="tblDisponibilita0224"><tr><td class="bottoneSXDettagli"></td><td class="bordoTastoDettagli sfondoBianco" align="center" width="146"><a class="rosso bold char11Arial nounderline" onclick="javascript:{CheckAvailability('02', '24', '103', '101', '19/01/2016', 'MATERA', 'BARI', '17:10:00', '18:25:00', 'P.za Della Visitazione ', 'AEROPORTO');}" href="#trPosti0224">VERIFICA DISPONIBILITA'</a></td><td class="bottoneDXDettagli"></td></tr></table></td></tr></table></td></tr><tr id="trPosti0224" style="display:none" class="disponibilita"><td colspan="4" width="613"><table border="0" cellpadding="0" cellspacing="0" width="613"><tr><td height="5" colspan="2" class="sfondoMenu"></td></tr><tr><td height="32" class="bianco bold char12Arial paddingLeft40 sfondoRosso" valign="middle" align="left">DISPONIBILITA' POSTI E PRENOTAZIONE</td><td width="32" align="left" class="sfondoRosso"><img border="0" alt="CHIUDI" src="/Image/risultati/ico_chiudi.gif" class="manina" onclick="javascript:{HideAvailability('0224');}"></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="613" class="paddingTop7"><tr><td width="4"></td><td width="244" valign="top"><table border="0" cellspacing="1" cellpadding="1"><tr><td class="char11Arial paddingLeft7">Tariffa:&nbsp;<span id="lblTariffa0224" class="bold"></span></td></tr><tr><td class="char11Arial paddingLeft7">Prezzo biglietto:&nbsp;<span id="lblPrezzo0224" class="bold rosso"></span></td></tr><tr><td class="char10Arial paddingLeft7">(comprensivo di diritto di prenotazione:&nbsp;<span id="lblPrezzoDiritto0224" class="bold rosso char11Arial"></span>)</td></tr><tr><td class="char11Arial paddingTop15 paddingLeft7 bold">E' possibile acquistare massimo 2 posti</td></tr></table></td><td width="210" valign="top"><table border="0" cellspacing="0" cellpadding="0" id="tblPosti0224"></table></td><td width="155" valign="top"><table border="0" cellspacing="2" cellpadding="2"><tr><td class="char11Arial rosso" colspan="2">legenda</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoAndata">&nbsp;</div></td><td class="char10Arial">Posto selezionato</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRosso">&nbsp;</div></td><td class="char10Arial">Posto non disponibile</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRitorno">&nbsp;</div></td><td class="char10Arial">Posto libero</td></tr></table><table border="0" cellspacing="0" cellpadding="0" id="tblCarrello0224" style="display:none;"><tr><td class="bottoneSX"></td><td class="sfondoRosso"><a class="char11Arial bold bianco nounderline" href="#" onclick="javascript:{InsertCarrello();}">AGGIUNGI AL CARRELLO</a></td><td class="bottoneDX"></td></tr></table></td></tr></table></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td class="bordoTopBlu" colspan="4"></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td colspan="4" class="sfondoMenu" height="25"><table border="0" cellspacing="0" cellpadding="0"><tr><td width="128" height="25" valign="middle" align="left"><span class="char11Arial blu paddingLeft10">Codice Linea: </span><span class="char11Arial rosso">02</span></td><td width="128" valign="middle" align="left"><span class="char11Arial blu">Codice Corsa: </span><span class="char11Arial rosso">25</span></td><td width="357" valign="middle" align="left"><span class="char11Arial blu">Linea: </span><span class="char11Arial rosso">MATERA - BARI AEROPORTO</span></td></tr></table></td></tr><tr><td colspan="4" height="2"></td></tr><tr><td class="sfondoMenu char18Arial giallo bold" valign="middle" align="center">5</td><td width="3"></td><td colspan="2" width="586" class="sfondoMenu"><table border="0" cellpadding="1" cellspacing="2" width="586"><tr><td class="bold char11Arial paddingLeft10" align="left" width="120">PARTENZA da</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">MATERA (P.za Della Visitazione )</td></tr><tr><td class="char11Arial paddingLeft10" align="left">ORARIO</td><td class="char11Arial paddingLeft10" align="left" colspan="2">20:35:00</td></tr><tr><td class="bold char11Arial paddingLeft10" align="left">ARRIVO a</td><td class="bold char11Arial paddingLeft10" align="left" colspan="2">BARI (AEROPORTO)</td></tr><tr><td class="char11Arial paddingLeft10" align="left" valign="top">ORARIO</td><td class="char11Arial paddingLeft10" align="left" valign="top" width="306">21:50:00</td><td width="160" valign="middle" class="sfondoMenu" ><table border="0" width="160" cellpadding="0" cellspacing="0" id="tblDisponibilita0225"><tr><td class="bottoneSXDettagli"></td><td class="bordoTastoDettagli sfondoBianco" align="center" width="146"><a class="rosso bold char11Arial nounderline" onclick="javascript:{CheckAvailability('02', '25', '103', '101', '19/01/2016', 'MATERA', 'BARI', '20:35:00', '21:50:00', 'P.za Della Visitazione ', 'AEROPORTO');}" href="#trPosti0225">VERIFICA DISPONIBILITA'</a></td><td class="bottoneDXDettagli"></td></tr></table></td></tr></table></td></tr><tr id="trPosti0225" style="display:none" class="disponibilita"><td colspan="4" width="613"><table border="0" cellpadding="0" cellspacing="0" width="613"><tr><td height="5" colspan="2" class="sfondoMenu"></td></tr><tr><td height="32" class="bianco bold char12Arial paddingLeft40 sfondoRosso" valign="middle" align="left">DISPONIBILITA' POSTI E PRENOTAZIONE</td><td width="32" align="left" class="sfondoRosso"><img border="0" alt="CHIUDI" src="/Image/risultati/ico_chiudi.gif" class="manina" onclick="javascript:{HideAvailability('0225');}"></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="613" class="paddingTop7"><tr><td width="4"></td><td width="244" valign="top"><table border="0" cellspacing="1" cellpadding="1"><tr><td class="char11Arial paddingLeft7">Tariffa:&nbsp;<span id="lblTariffa0225" class="bold"></span></td></tr><tr><td class="char11Arial paddingLeft7">Prezzo biglietto:&nbsp;<span id="lblPrezzo0225" class="bold rosso"></span></td></tr><tr><td class="char10Arial paddingLeft7">(comprensivo di diritto di prenotazione:&nbsp;<span id="lblPrezzoDiritto0225" class="bold rosso char11Arial"></span>)</td></tr><tr><td class="char11Arial paddingTop15 paddingLeft7 bold">E' possibile acquistare massimo 2 posti</td></tr></table></td><td width="210" valign="top"><table border="0" cellspacing="0" cellpadding="0" id="tblPosti0225"></table></td><td width="155" valign="top"><table border="0" cellspacing="2" cellpadding="2"><tr><td class="char11Arial rosso" colspan="2">legenda</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoAndata">&nbsp;</div></td><td class="char10Arial">Posto selezionato</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRosso">&nbsp;</div></td><td class="char10Arial">Posto non disponibile</td></tr><tr><td width="13" class="char11Arial"><div class="sfondoRitorno">&nbsp;</div></td><td class="char10Arial">Posto libero</td></tr></table><table border="0" cellspacing="0" cellpadding="0" id="tblCarrello0225" style="display:none;"><tr><td class="bottoneSX"></td><td class="sfondoRosso"><a class="char11Arial bold bianco nounderline" href="#" onclick="javascript:{InsertCarrello();}">AGGIUNGI AL CARRELLO</a></td><td class="bottoneDX"></td></tr></table></td></tr></table></td></tr><tr><td height="4" colspan="4"></td></tr><tr><td class="bordoTopBlu" colspan="4"></td></tr><tr><td height="4" colspan="4"></td></tr>
+                                
+                                    </table>
+                                
+                        </td>
+                    </tr>
+                </table>
+                
+                <table id="ctl00_cphMain_tblAcquistoDown" border="0" cellpadding="0" cellspacing="0" width="613" class="notDisplay">
+	<tr>
+		<td height="10"></td>
+	</tr>
+	<tr>
+		<td class="sfondoMenu paddingRight7" height="37" valign="middle" align="right"><img src="/Image/icona_carrello.gif" alt="" /><span class="char11Arial blu">Posti selezionati&nbsp;</span><label id="lblNPostiSelezionatiDown" class="char11Arial blu"></label>&nbsp;&nbsp;&nbsp;&nbsp;<a class="bold rosso char11Arial underline" href="/DettaglioCarrello.aspx" title='PROSEGUI CON L'ACQUISTO'>PROSEGUI CON L'ACQUISTO</a></td>
+	</tr>
+</table>
+
+            </td>
+        </tr>
+    </table>
+      
+</td>
+                </tr>
+            </table>
+            
+<table border="0" cellpadding="0" cellspacing="0" width="776" align="center">
+    <tr>
+        <td height="10" colspan="5"></td>
+    </tr>
+    <tr>
+        <td height="8" class="sfondoRosso" width="194"></td>
+        <td width="6"></td>
+        <td class="sfondoAndata" width="285"></td>
+        <td width="6"></td>
+        <td class="sfondoRitorno" width="285"></td>
+    </tr>
+    <tr>
+        <td height="20" colspan="5"></td>
+    </tr>
+</table>
+        </div>
+        <div id="divPrivacy">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="padding-top:5px; padding-bottom:2px;">
+                <tr>
+                    <td align="left" width="40" class="sfondoMenu" height="37"><img src="/Image/tasto_esclamativo.gif" width="20" height="20" hspace="10" vspace="6" alt="privacy" /></td>
+                    <td align="left" valign="middle" class="sfondoMenu giallo bold char12Arial">PRIVACY</td>
+                </tr>
+            </table>
+            <div class="bordoGrigio char11Arial" style="width:538px; padding:15px 30px 15px 30px">INFORMATIVA AI SENSI DELL'ART. 13 D. LGS. 196/2003
+Ai sensi e per gli effetti del D.Lgs.n.196 del 30.06.2003 (Codice in materia di dati personali) Aeroporti di Puglia S.p.A. La informa che i dati da Lei volontariamente forniti o altrimenti acquisiti nell'ambito dei servizi da noi prestati, saranno oggetto di trattamento nel rispetto delle disposizioni normo regolamentate in materia e degli obblighi di riservatezza, di cui Aeroporti di Puglia si fa carico. Le informazioni richieste verranno utilizzate per consentire l'accesso ai servizi on line di Aeroporti di Puglia. I dati e le informazioni personali raccolte con l'ausilio di mezzi informatici/telematici da lei forniti, saranno utilizzati da Aeroporti di Puglia al solo fine della erogazione dei servizi richiesti e delle procedure aeroportuali connesse a tali servizi. Aeroporti di Puglia, ove necessario, potrà comunicare i suoi dati personali ad altre società. Nel caso che i servizi prescelti siano gestiti da terzi, i dati verranno comunicati ai singoli gestori per mezzo di strumenti e/o modalità atte ad assicurare la riservatezza, l'integrità e la disponibilità nel pieno e puntuale rispetto di quanto contemplato nel D.Lgs. 196/2003 in relazione alle misure minime di sicurezza contemplate per il trattamento dei dati personali. L'eventuale rifiuto a comunicare i dati richiesti, impedisce l'erogazione del servizio. La informiamo inoltre che in ogni momento Ella potrà esercitare i Suoi diritti ai sensi dell'art. 7 del D.Lgs 196/2003. il titolare del Trattamento dei dati è Aeroporti di Puglia S.P.A. - Viale Enzo Ferrari 70124 Bari Palese.</div>
+        </div>
+        
+<div id="divFooter">
+    <table border="0" cellpadding="0" cellspacing="0" width="776" align="center">
+        <tr>
+            <td class="rossoTestata"></td>
+        </tr>
+        <tr>
+            <td valign="top" width="776">
+                <div id="divContainerFooter">
+                <div class="font_11 ColorF boxFooter1"><a href="http://www.aeroportidipuglia.it" target="_blank" title="Aeroporti di Puglia"><img src="/Image/footer/logo_aeroporti_footer.gif" alt="Aeroporti di Puglia  BARI - BRINDISI - FOGGIA - TARANTO" width="144" height="54" style="margin-bottom:30px;" /></a>
+                <br />AEROPORTI DI PUGLIA S.p.A.<br />
+                Viale Enzo Ferrari 70128<br />
+                Palese Bari<br />
+                P.IVA 03094610726
+                </div>
+                <div class="separatoreFooter">&nbsp;</div>
+                <div class="font_11 ColorF boxFooter2"><a title="PUGLIAVOLA - Biglietteria Aerea" class="font_11 ColorF vspace20" href="http://biglietteria.aeroportidipuglia.it/Default.aspx">│&nbsp;&nbsp;Home Biglietteria Aerea &gt;</a><br /><a class="font_11 ColorF vspace20" href="/Default.aspx" title="PUGLIAVOLA - Biglietteria Bus">│&nbsp;&nbsp;Home Biglietteria Bus &gt;</a><br /><a class="font_11 ColorF vspace20" href="http://treni.aeroportidipuglia.it/Default.aspx" title="PUGLIAVOLA - Biglietteria Treni">│&nbsp;&nbsp;Home Biglietteria Treni &gt;</a><br /><a class="font_11 ColorF vspace20" href="http://www.rentalcars.com/Home.do?affiliateCode=pugliaairports" target="_blank" title="Rent Car">│&nbsp;&nbsp;Rent Car &gt;</a><br /><a class="font_11 ColorF vspace20" href="#divPrivacy" id="aPrivacy">│&nbsp;&nbsp;Privacy &gt;</a><br />
+                <div style="margin-top:8px;">Dati societari<br />
+                CAPITALE SOCIALE<br />
+                € 12.950.000,00 i. v.<br />
+                R.T. BARI 15742<br />
+                C.C.I.A.A BARI 243199</div>
+                </div>
+                <div class="separatoreFooter">&nbsp;</div>
+                <div class="font_11 ColorF boxFooter3">
+                <div id="fb-root"></div>
+                <script>    (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) { return; }
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                    fjs.parentNode.insertBefore(js, fjs);
+                } (document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-like" data-href="http://biglietteria.aeroportidipuglia.it" data-send="true" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+                <div style="margin-left:5px; margin-top:15px;"><g:plusone size="small"></g:plusone></div> 
+                <br />
+                <br />
+                Compatibilit&#224; Browser
+                <br />
+                * IE 7.0 - 8.0 - 9.0<br />
+                * Mozilla Firefox <br />
+                * Chrome<br />
+                * Safari</div>
+                <div class="separatoreFooter">&nbsp;</div>
+                <div class="font_11 ColorF boxFooter4">
+                by <a target="_blank" href="http://www.webstudiolab.it" title="Webstudio Lab"><img src="/Image/footer/logo_webstudiolab.gif" width="99" height="13" alt="Webstudio Lab" /></a>
+                <br /><br />Servizi bus a cura di <a href="http://www.cotrap.it" target="_blank" title="COTRAP - Consorzio Trasporti Aziende Pugliesi"><img src="/Image/footer/logo_cotrap_footer.gif" width="71" height="32" vspace="5" alt="COTRAP - Consorzio Trasporti Aziende Pugliesi" /></a><br /><br />In collaborazione con<a target="_blank" href="http://www.regione.puglia.it" title="Regione Puglia"><img src="/Image/footer/logo_regione_puglia_footer.gif" width="44" height="42" vspace="2" alt="Regione Puglia" /></a><a target="_blank" href="http://www.viaggiareinpuglia.it" title="Viaggiare in Puglia"><img src="/Image/footer/logo_viaggiare_puglia_footer.gif" alt="Viaggiare in Puglia" width="55" height="42" /></a>
+                </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+    </form>
+    <div class="notDisplay">
+        
+<div id="dialog-error" title="Errore">
+    <table>
+        <tr>
+            <td valign="top"><span class="ui-icon ui-icon-alert" style="float:left; margin:0px 7px 0px 0px;"></span></td>
+            <td><span id="lblErrore" class="char13Arial"></span></td>
+        </tr>
+    </table>
+</div>
+    </div>
+    
+</body>
+</html>

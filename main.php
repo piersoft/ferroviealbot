@@ -5,7 +5,7 @@
 */
 
 include("Telegram.php");
-
+include("settings_t.php");
 class mainloop{
 const MAX_LENGTH = 4096;
 function start($telegram,$update)
@@ -37,7 +37,7 @@ function start($telegram,$update)
 		$telegram->sendPhoto($contentp);
 		$reply = "Benvenuto. Questo è un servizio automatico (bot da Robot) per gli orari delle ".NAME.".
 		Puoi ricercare gli orari dei Bus e Treni per Matera da Bari e viceversa.
-		Per cercare il prossimo Treno o Bus clicca nel menù in basso o segui la sezione Istruzioni.
+		Per cercare i prossimi Treni o Bus clicca nel menù in basso o segui la sezione Istruzioni.
 		In qualsiasi momento scrivendo /start ti ripeterò questo messaggio.\nQuesto bot è stato realizzato da @piersoft, senza fini di lucro e a titolo di Demo, non ha collegamenti con l'azienda Ferrovie Appulo Lucane, non è ufficiale e l'autore declina da ogni responsabilità. La fonte dati è realtime quella del sito http://ferrovieappulolucane.it/. Il codice sorgente è liberamente riutilizzabile con licenza MIT.";
 		$content = array('chat_id' => $chat_id, 'text' => $reply,'disable_web_page_preview'=>true);
 		$telegram->sendMessage($content);
@@ -47,7 +47,7 @@ function start($telegram,$update)
 
 		exit;
 	}	elseif ($text == "/istruzioni" || $text == "Istruzioni") {
-		$reply = "Devi seguire alcune semplici regole. Il formato è 1bm%11/01/2016?5-11 dove il primo numero è 2 per i Treni e 1 per Bus, bm è per Bari->Matera e quindi mb per Matera->Bari, poi il carattere % e la data nel formato gg/mm/aaaa, quindi il carattere ? e infine l'ora e i minuti separati dal carattere - (meno).";
+		$reply = "Devi seguire alcune semplici regole. Il formato è 1bm%11/01/2016?5-11 dove il primo numero è 2 per i Treni e 1 per Bus, bm è per Bari->Matera e quindi mb per Matera->Bari, poi il carattere % e la data nel formato gg/mm/aaaa, quindi il carattere ? e infine l'ora e i minuti separati dal carattere - (meno). Attenzione! Se cercate nella giornata odierna, inserite sempre un orario successivo all'ora attuale.";
 		$content = array('chat_id' => $chat_id, 'text' => $reply,'disable_web_page_preview'=>true);
 		$telegram->sendMessage($content);
 		$log=$today. ",istruzioni," .$chat_id. "\n";
@@ -57,13 +57,13 @@ function start($telegram,$update)
 		exit;
 
 	}
-		elseif ($text == "Prossimo Treno da BA" || $text == "Prossimo Treno da MT") {
+		elseif ($text == "Prossimi Treni da BA" || $text == "Prossimi Treni da MT") {
 			$ore=date("H");
 			$minuti=$todaym;
 			$datad = date("d/m/Y");
 			$minuti = date("i");
 
-		if ($text == "Prossimo Treno da BA"){
+		if ($text == "Prossimi Treni da BA"){
 			$partenza="bm";
 			$mezzo="2";
 		}else{
@@ -119,7 +119,15 @@ function start($telegram,$update)
 							  $html = sprintf('<html><head><title></title></head><body>%s</body></html>', $html);
 							  $html=str_replace("</td>","</td>;",$html);
 							  $html=str_replace("</th>","</th>;",$html);
-							  $html=str_replace("<tr class=\"dettagli\">","",$html);
+							//  $html=str_replace("<tr class=\"dettagli\">","",$html);
+								$html=str_replace("class=\"mostra_dettagli\" ","action=get_corsa&",$html);
+								$html=str_replace("id=\"","id_corsa=",$html);
+								$html=str_replace("\" data-id_partenza=\"","&id_partenza=",$html);
+								$html=str_replace("\" data-id_arrivo=\"","&id_arrivo=",$html);
+
+
+								$html=str_replace("<a href=\"#\"","",$html);
+								$html=str_replace("\">dettagli</a>","dettagli",$html);
 							$doc = new DOMDocument;
 							$doc->loadHTML($html);
 
@@ -213,6 +221,37 @@ function start($telegram,$update)
 							  $homepage .="Alle ore: ".$csv[$i][4]."\n";
 							  $homepage .="Durata: ".$csv[$i][5]."\n";
 							  $homepage .="Garantito in caso di sciopero: ".$csv[$i][6]."\n";
+								$homepage .="Dettagli fermate intermedie:\n";
+								$longUrl="http://www.piersoft.it/falbot/dettaglio.php?".$csv[$i][7];
+								$longUrl=str_replace(" ","",$longUrl);
+
+								$apiKey = API;
+
+								$postData = array('longUrl' => $longUrl, 'key' => $apiKey);
+								$jsonData = json_encode($postData);
+
+								$curlObj = curl_init();
+
+								curl_setopt($curlObj, CURLOPT_URL, 'https://www.googleapis.com/urlshortener/v1/url?key='.$apiKey);
+								curl_setopt($curlObj, CURLOPT_RETURNTRANSFER, 1);
+								curl_setopt($curlObj, CURLOPT_SSL_VERIFYPEER, 0);
+								curl_setopt($curlObj, CURLOPT_HEADER, 0);
+								curl_setopt($curlObj, CURLOPT_HTTPHEADER, array('Content-type:application/json'));
+								curl_setopt($curlObj, CURLOPT_POST, 1);
+								curl_setopt($curlObj, CURLOPT_POSTFIELDS, $jsonData);
+
+								$response = curl_exec($curlObj);
+
+								// Change the response json string to object
+								$json = json_decode($response);
+
+								curl_close($curlObj);
+								//  $reply="Puoi visualizzarlo su :\n".$json->id;
+								$shortLink = get_object_vars($json);
+								//return $json->id;
+
+								$homepage .=$shortLink['id']."\n";
+
 							  $homepage .="____________\n";
 
 							}
@@ -223,18 +262,19 @@ function start($telegram,$update)
 
 								}
 
-
+								$content = array('chat_id' => $chat_id, 'text' => "Approfondimenti e biglietti online su http://ferrovieappulolucane.it/",'disable_web_page_preview'=>true);
+								$telegram->sendMessage($content);
 
 		file_put_contents(LOG_FILE, $log, FILE_APPEND | LOCK_EX);
 	//		$this->create_keyboard_temp($telegram,$chat_id);
 exit;
 			}
-			elseif ($text == "Prossimo Bus da BA" || $text == "Prossimo Bus da MT") {
+			elseif ($text == "Prossimi Bus da BA" || $text == "Prossimi Bus da MT") {
 				$ore=date("H");
 				$minuti=$todaym;
 				$datad = date("d/m/Y");
 				$minuti = date("i");
-				if ($text == "Prossimo Bus da BA"){
+				if ($text == "Prossimi Bus da BA"){
 					$partenza="bm";
 					$mezzo="1";
 				}else{
@@ -393,7 +433,8 @@ exit;
 
 										}
 
-
+										$content = array('chat_id' => $chat_id, 'text' => "Approfondimenti e biglietti online su http://ferrovieappulolucane.it/",'disable_web_page_preview'=>true);
+										$telegram->sendMessage($content);
 
 				file_put_contents(LOG_FILE, $log, FILE_APPEND | LOCK_EX);
 			//		$this->create_keyboard_temp($telegram,$chat_id);
@@ -459,6 +500,7 @@ $partenza="partenza=5&arrivo=36";
 				}
 				if (intval($minuti)<10){
 				  $minuti="0".$minuti;
+					if ($minuti=="000") $minuti=str_replace("000","00",$minuti);
 				}
 
 				$reply .="dalle ore ".$ore." e ".$minuti." del giorno ".$datad;
@@ -586,6 +628,9 @@ $partenza="partenza=5&arrivo=36";
 					$telegram->sendMessage($content);
 
 					}
+					$content = array('chat_id' => $chat_id, 'text' => "Approfondimenti e biglietti online su http://ferrovieappulolucane.it/",'disable_web_page_preview'=>true);
+					$telegram->sendMessage($content);
+					
 					$log=$today. ",ricerca," .$chat_id. "\n";
 						file_put_contents(LOG_FILE, $log, FILE_APPEND | LOCK_EX);
 
@@ -598,7 +643,7 @@ exit;
 
 	function create_keyboard_temp($telegram, $chat_id)
 	 {
-			 $option = array(["Prossimo Treno da MT","Prossimo Treno da BA"],["Prossimo Bus da MT","Prossimo Bus da BA"],["Istruzioni","Informazioni"]);
+			 $option = array(["Prossimi Treni da MT","Prossimi Treni da BA"],["Prossimi Bus da MT","Prossimi Bus da BA"],["Istruzioni","Informazioni"]);
 			 $keyb = $telegram->buildKeyBoard($option, $onetime=false);
 			 $content = array('chat_id' => $chat_id, 'reply_markup' => $keyb, 'text' => "[Digita la sequenza di caratteri ad esempio 1bm%11/01/2016?5-11 oppure clicca sulle prossime partenze]");
 			 $telegram->sendMessage($content);
